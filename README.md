@@ -1,6 +1,4 @@
 # LuvArts
-Repositório de desenvolvimento da plataforma LuvArt's
-
 ## Ferramentas necessárias
 
 * Node.js: https://nodejs.org/en/
@@ -19,19 +17,36 @@ Repositório de desenvolvimento da plataforma LuvArt's
 rodar o seguinte comando dentro da pasta src:
 
 ```sh
-php install.php
+php install
 ```
 
 ## Modo de uso
 
-* Ligar Apache e Mysql no xampp
+* Ligar Apache e Mysql no Xampp
 * ir dentro da pasta src e rodar o comando "php artisan serve"
 * Abrir a url que aparecer no terminal
+
+## Atualizando sua Versão do projeto
+rodar os seguintes comando dentro da pasta src:
+
+```sh
+git pull
+```
+
+```sh
+php update
+```
 
 ## Desenvolvimento
 
 Regras e dicas:
-* Todo o template não implantado deve ser amarzenado em uma pasta ao lado de src
+* Todo o template não implantado deve ser amarzenado em uma pasta ao lado de src chamada templates
 * As paginas do projeto implantadas ficam em src/resources/views
 * O js fica em src/resources/js
 * O local de trabalho com css deve ser escolhido pelo Front-End podendo ser em src/resources/sass ou src/public
+
+## Créditos
+* Higor Freitas
+* Thiago P. Bonfogo 
+* Mateus Meira 
+* Bruno César
